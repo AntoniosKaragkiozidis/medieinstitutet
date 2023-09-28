@@ -1,0 +1,76 @@
+html{
+    background: lightblue; 
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+    margin: 10px;
+    
+ }
+ h1 {
+    background: lightblue;
+    color: aliceblue;
+
+ }
+ img {
+    border-radius: 115px
+ }
+
+ form {
+     border: 1px solid white ;
+     width: 500px ;
+     padding: 30px;
+     margin: 30px;
+
+ }
+ .form label {
+    display: block;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bold;
+ }
+
+ h1 {
+    background-color: green;
+}
+.form-input{
+    width: 200px;
+    height: 35px;
+    font-size: 18px;
+    padding: 3px;
+
+}
+
+input {
+    display: block;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-size: 1rem;
+    background: white;
+    border: none;
+}
+
+table {
+    position: relative;
+    left: 25%;
+
+}
+
+table th {
+    border-bottom: 1px dotted black;
+}
+
+table td {
+    border: 1px solid black;
+    background: lightgray;
+
+}
+
+table td:nth-child(odd) {
+    background: white;
+}
+ 
+  
+  
+  
+   
+
+
