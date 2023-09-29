@@ -1,4 +1,5 @@
 html{
+    font-family: 'Dela Gothic One', cursive;
     background: #F8F8FF;
 }
 body {
@@ -29,16 +30,20 @@ img {
     margin-right: auto;
 }
 p {
-    font-size: 29px;
+    font-size: 22px;
     color: rgb(41, 39, 39);
     text-align: center;
     margin: 0 auto;
     padding: 70px 50px;
-    max-width: 80%;
+    max-width: 40%;
 }
-
-
-   
+.Highlight {
+    color: #0D3A64;
+}
+   h1 {
+    color: #0D3A64;
+    text-align: center;
+   }
    
 
 
