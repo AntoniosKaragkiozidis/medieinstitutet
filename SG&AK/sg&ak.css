@@ -1,11 +1,11 @@
 html{
-    background: rgb(255, 255, 255);
+    background: #F8F8FF;
 }
 body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50vh;
+
     margin: 0;
 }
 .form-input{
@@ -18,13 +18,24 @@ body {
     
 }
 hr {
-    width: 270%;
+    width: 80%;
     margin:  auto;
     align-items: center;
 
 }
-
-
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+p {
+    font-size: 29px;
+    color: rgb(41, 39, 39);
+    text-align: center;
+    margin: 0 auto;
+    padding: 70px 50px;
+    max-width: 80%;
+}
 
 
    
