@@ -1,6 +1,6 @@
 html {
     font-family: 'Dela Gothic One', cursive;
-    background: #F8F8FF;
+    background: #090B29;
 }
 
 body {
@@ -25,6 +25,7 @@ hr {
     width: 80%;
     margin: auto;
     align-items: center;
+    color: gray;
 
 }
 
@@ -32,11 +33,12 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding: 100px;
 }
 
 p {
     font-size: 22px;
-    color: rgb(41, 39, 39);
+    color: #C9E4FC;
     text-align: center;
     margin: 0 auto;
     padding: 70px 50px;
@@ -44,21 +46,22 @@ p {
 }
 
 .Highlight {
-    color: #0D3A64;
+    color: #946FFF;
 }
 
 h1 {
     margin-top: 100px;
-    color: #0D3A64;
+    color: #ffffff;
     text-align: center;
 }
 
 .highlightu {
     font-size: 9px;
-    color: #0D3A64;
+    color: #aaadb1;
 }
 
 .linkalign {
+    color: #C9E4FC;
     text-align: center;
     display: block;
     padding: 100px;
@@ -118,10 +121,10 @@ button:hover {
 }
 
 .form-bg {
-
-    width: 1200px;
-    height: 560px;
-
+    padding: 9px;
+    margin-top: 1px;
+    width: 785px;
+    height: 556px;
 }
 
 .form-container {
