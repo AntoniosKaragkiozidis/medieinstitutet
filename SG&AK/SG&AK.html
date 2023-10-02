@@ -35,17 +35,17 @@
     <hr>
     <p>Our services</p>
     <img src="https://i.postimg.cc/hvY3vmrr/Group-40.png" alt="image that shows several services we offer">
-      <p>Pricelist</p>
+    <p>Pricelist</p>
 
     <img src="https://i.postimg.cc/mhxNKyj0/Group-41.png" alt="alt= image that shows our pricelist">
 
     <div>
-       <!--spaced and contact text-->
+      <!--spaced and contact text-->
       <br><br><br><br>
       <p>Contact us</p>
     </div>
     <div class="container">
-      <div class="form-container">
+      <div class="form-container" id="contact-form">
         <form action="submit_form.php" method="post">
           <label for="name">Name:</label>
           <input type="text" id="name" name="name" required>
@@ -63,17 +63,26 @@
     <img src="https://i.postimg.cc/dQjXr7W4/Rectangle-353.png" alt="a form background image" class="form-bg">
     </div>
 
-  
+
     <div>
-      <!--The link to the other site-->
-      <a href="omoss.html" class="linkalign">About us</a>
+     
     </div>
+    <!--Navigation bar-->
+    <div class="navbar">
+      <a href="SG&AK.html">Home</a>
+      <!--The link to the other site-->
+      <a href="omoss.html">About us</a>
+      <a href="#contact-form">Contact</a>
+
+    </div>
+
+
 
     <footer>
       <p class="highlightu">Copyright © 2023 by SG&AK. All Rights Reserved.</p>
     </footer>
     <!--BG COLOR SWITCH-->
-    <button id= "bgmode" onclick="toggleBackgroundColor()"></button>
+    <button id="bgmode" onclick="toggleBackgroundColor()"></button>
     <script src="script.js"></script>
   </body>
 
